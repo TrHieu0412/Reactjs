@@ -1,0 +1,86 @@
+.people-list h4 {
+  text-align: center;
+  margin-left: 200px;
+  padding-top: 50px;
+  font-size: 45px;
+  width: 500px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
+}
+.table-title {
+  display: flex;
+  max-width: 1500px;
+  gap: 150px;
+  margin-left: 50px;
+  min-height: 30px;
+}
+
+.people-row {
+  display: flex;
+  max-width: 3000px;
+  gap: 150px;
+  margin-left: 50px;
+  min-height: 100px;
+  align-items: center;
+}
+.people-row button {
+  padding: 0;
+  border: none;
+  background-color: white;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.table-button {
+  display: flex;
+  gap: 12px;
+  font-size: 18px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.form-search {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.form-search input {
+  padding: 5px;
+  border-radius: 20px;
+}
+.form-search button {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+}
+.table-name {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.table-name select {
+  border-radius: 20px;
+  max-width: 18px;
+  border: none;
+}
+.table-id {
+  display: flex;
+  gap: 5px;
+}
+.table-id select {
+  border-radius: 20px;
+  max-width: 18px;
+  background-color: none;
+  border: none;
+}
+
+.table-title {
+  background-color: #3333cc;
+  color: whitesmoke;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 30px;
+  border: 1px solid black;
+}

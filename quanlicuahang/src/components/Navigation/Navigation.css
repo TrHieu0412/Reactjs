@@ -1,0 +1,39 @@
+.Navigation {
+  background-color: #000044;
+  min-height: 1000px;
+  color: white;
+  min-width: 250px;
+}
+.nav-account {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.nav-ava {
+  font-size: 50px;
+}
+.nav-name {
+  padding-top: 25px;
+}
+.nav-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.nav-page a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  min-width: 150px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.nav-page a:hover {
+  color: #0066ff;
+}

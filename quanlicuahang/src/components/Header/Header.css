@@ -1,0 +1,28 @@
+.Header {
+  background-color: #3333cc;
+  box-shadow: rgba(47, 41, 41, 0.25) 0px 0px 29px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+.logo {
+  display: flex;
+  gap: 30px;
+}
+.logo p {
+  border-right: 1px solid white;
+  padding-right: 15px;
+}
+.logo button {
+  border: none;
+  background-color: #3333cc;
+  color: white;
+  padding-bottom: 22px;
+}
+.main {
+  font-size: 30px;
+}

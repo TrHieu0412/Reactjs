@@ -1,0 +1,72 @@
+.hp-inf {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.hp-inf h1 {
+  font-weight: 700;
+}
+.hp-inf p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+/* background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%); */
+.hp-item {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  min-width: 1500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  align-items: center;
+}
+.hp-account {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  min-width: 350px;
+  padding: 20px;
+  justify-content: space-between;
+}
+.num-account h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.num-account p {
+  font-size: 20px;
+}
+.num-ava {
+  font-size: 30px;
+  border: 1px solid #6699ff;
+  border-radius: 50%;
+  padding: 30px;
+  background-color: #6699ff;
+  color: white;
+}
+.num-account button {
+  border: none;
+  background-color: #3333cc;
+  color: white;
+  border-radius: 15px;
+  padding: 5px;
+  min-width: 150px;
+}
+.img-ew {
+  display: flex;
+  gap: 20px;
+}
+.title-img {
+  margin-top: 100px;
+}
+.img-ew img {
+  min-width: 450px;
+  height: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.img-ew img:hover {
+  opacity: 0.6;
+}
